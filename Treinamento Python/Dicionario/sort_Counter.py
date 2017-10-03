@@ -1,0 +1,12 @@
+subjects = {'Math':81, 'Physics':83, 'Chemistry':87}
+sorted(subjects)
+print subjects
+
+inventory = {'gold' : 500, 'pouch' : ['flint', 'twine', 'gemstone'], 'backpack' : ['xylophone','dagger', 'bedroll','bread loaf']}
+inventory['pocket'] = ['seashell', 'strange', 'berry', 'lint']
+inventory['backpack'].sort()
+inventory['backpack'].remove('dagger')
+inventory['gold'] = [inventory['gold'], 50]
+
+print inventory
+
